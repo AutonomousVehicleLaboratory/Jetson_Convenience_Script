@@ -90,8 +90,8 @@ echo "source ~/.bashrc"
 # ===
 # ===
 cd $SCRIPT_DIR
-if [ -e ../bell.sh ]; then
-  chmod +x ../bell.sh
-  bash ../bell.sh
-fi
+# if [ -e ../bell.sh ]; then
+#   chmod +x ../bell.sh
+#   bash ../bell.sh
+# fi
 
