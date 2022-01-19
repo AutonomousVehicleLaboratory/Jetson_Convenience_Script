@@ -35,10 +35,10 @@ if [ $? = 0 ]; then
   bash ./sub_PyTorch.sh $PYTORCH_VERSION $TORCHVISION_VERSION $WHL_URL $WHL_NAME
 
   cd $SCRIPT_DIR
-  if [ -e ../bell.sh ]; then
-    chmod +x ../bell.sh
-    bash ../bell.sh
-  fi
+#  if [ -e ../bell.sh ]; then
+#    chmod +x ../bell.sh
+#    bash ../bell.sh
+#  fi
 
   exit 0
 fi
@@ -58,10 +58,10 @@ if [ $? = 0 ]; then
   bash ./sub_PyTorch.sh $PYTORCH_VERSION $TORCHVISION_VERSION $WHL_URL $WHL_NAME
 
   cd $SCRIPT_DIR
-  if [ -e ../bell.sh ]; then
-    chmod +x ../bell.sh
-    bash ../bell.sh
-  fi
+#  if [ -e ../bell.sh ]; then
+#    chmod +x ../bell.sh
+#    bash ../bell.sh
+#  fi
 
   exit 0
 fi
