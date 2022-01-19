@@ -51,8 +51,8 @@ echo "-D JPEG_LIBRARY=/opt/libjpeg-turbo/lib64/libturbojpeg.a"
 # ===
 # ===
 cd $SCRIPT_DIR
-if [ -e ../bell.sh ]; then
-  chmod +x ../bell.sh
-  bash ../bell.sh
-fi
+# if [ -e ../bell.sh ]; then
+#   chmod +x ../bell.sh
+#   bash ../bell.sh
+# fi
 
